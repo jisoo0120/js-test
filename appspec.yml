@@ -3,12 +3,10 @@ os: linux
 files:
   - source: /
     destination: /eb/web 
-hook:
+hooks:
  BeforeInstall:
   - location: script/make_time
     timeout: 300
-    runas: root
  AfterInstall:
   - location: script/change_time
     timeout: 300
-    runas: root
