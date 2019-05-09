@@ -2,6 +2,6 @@
 
 # overwrite index
 
-\cp /eb/web/index.html /usr/share/nginx/html/index.html
+sudo \cp /eb/web/index.html /usr/share/nginx/html
 
 
