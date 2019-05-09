@@ -3,6 +3,4 @@
 # make directory
 mkdir -p /eb/web
 
-# remove index
-rm -rf /usr/share/nginx/html/index.html
 
